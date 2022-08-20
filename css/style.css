@@ -58,3 +58,76 @@
 }
 
 /* end banner */
+
+/* about */
+.site-main .about {
+  padding: 8rem 5rem;
+}
+.site-main .about .about-title h2 > span {
+  display: block;
+  font: normal bold 50px/60px var(--roboto);
+  letter-spacing: 20px;
+}
+.site-main .about .about-title .paragraph > p {
+  padding: 0.4rem 0;
+}
+/* end About */
+/* brand */
+.site-main .brand {
+  padding: 1rem 20rem;
+  margin-bottom: 4rem;
+}
+.site-main .brand .first-row .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+.site-main .brand .first-row .col-lg-4 > .single-brand {
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 1.8rem 0rem;
+  margin: 0.9rem 0;
+  width: 180px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+.site-main .brand .first-row .col-lg-4 > .single-brand > img {
+  width: 50%;
+}
+.site-main .brand .first-row .col-lg-4 > .single-brand:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+.site-main .brand .first-row .col-lg-4 > .single-brand:hover > img {
+  filter: brightness(0.15);
+}
+.site-main .brand .experience span {
+  display: block;
+}
+
+.site-main .brand-area .experience {
+  padding-left: 1rem;
+}
+.site-main .brand .experience .years-area {
+  background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+  padding: 2rem 0;
+  width: 40rem;
+  height: 18rem;
+  padding-left: 8rem;
+  position: relative;
+}
+.site-main .brand .experience .bg-panel {
+  position: absolute;
+  left: -190px;
+  top: 0%;
+  background: #e029290a;
+  width: 400px;
+  height: 400px;
+  margin-left: 340px;
+  z-index: -1;
+}
+.site-main .brand .experience .years-area .years {
+  font: normal bold 84px/40px var(--roboto);
+  color: var(--primary-color2);
+  z-index: 2;
+}
+/* end brand */
