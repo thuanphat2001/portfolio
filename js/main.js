@@ -7,4 +7,9 @@ $(document).ready(function () {
     $(".project .grid").isotope({ filter: selector });
     return false;
   });
+  $(".project .button-group #btn1").trigger("click");
+  $(".project .grid .test-popup-link").magnificPopup({
+    type: "image",
+    gallery: { enabled: true },
+  });
 });

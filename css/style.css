@@ -184,4 +184,8 @@
 .site-main .project .grid .our-project > .title h4 {
   font: normal 700 25px/12px var(--roboto);
 }
+
+.site-main .project .grid .our-project .img a:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
 /* end project */
