@@ -193,11 +193,17 @@
 .site-main .about-me .about-me-title p {
   padding: 1rem 7rem;
 }
+.site-main .about-me .client-item {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
 .site-main .about-me .client {
   background: #ffffff10;
   box-shadow: var(--box-shadow);
   margin: 3rem 0;
 }
+
 .site-main .about-me .client .client-img {
   padding: 2rem;
 }
@@ -221,3 +227,53 @@
   height: 12px;
 }
 /* end about-me */
+/* subscribe */
+.site-main .subscribe-us .subscribe {
+  background: url(../img/subscribe-bg.png) no-repeat;
+  padding: 10rem 0;
+  margin: 3rem auto;
+}
+.site-main .subscribe-us .subscribe .subscribe-title h4 {
+  font: normal 700 30px/30px var(--roboto);
+  color: whitesmoke;
+}
+.site-main .subscribe-us .subscribe .subscribe-title p {
+  color: whitesmoke;
+  padding: 1rem 4rem;
+}
+.site-main .subscribe-us .subscribe form .input-textbox input {
+  width: 400px;
+  height: 50px;
+  padding: 1.5rem 1rem;
+  border: 1px solid whitesmoke;
+  background: transparent;
+  color: whitesmoke;
+  font: normal 700 17px/20px var(--roboto);
+}
+.site-main .subscribe-us .subscribe form .input-textbox input::placeholder {
+  color: whitesmoke;
+}
+.site-main .subscribe-us .subscribe form .btn-submit button {
+  background: whitesmoke;
+  color: #000;
+  padding: 0.7rem 2rem;
+}
+/* end subscribe */
+
+/* footer */
+footer.footer {
+  padding: 5rem 0;
+  background: url(../img/footer-bg.png) no-repeat;
+}
+footer.footer .social h5 {
+  font: normal 500 23px/30px var(--roboto);
+}
+footer.footer .social a > i {
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--border-color);
+}
+footer.footer .social a:hover > i {
+  color: var(--primary-color);
+}
+/* end footer */
